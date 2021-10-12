@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Oi",
+        "Ola",
+        "Ei",
+        "Como voce esta?",
+        "Como voce ta?",
+        "tudo bem?",
+        "Tem alguem ai?",
+        "Como vai?",
+        "Como vai voce?",
+        "Tudo beleza?",
+        "Beleza?",
+        "Boa tarde",
+        "Boa noite",
+        "Bom dia"
+      ],
+      "responses": [
+        "Ei :-)",
+        "Ola, obrigado pela visita",
+        "Ola, o que posso fazer por voce?",
+        "Ola, como posso te ajudar?",
+        "Ola, como ajudar voce?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tchau", "Vejo você mais tarde", "Adeus", "Vejo voce depois"],
+      "responses": [
+        "Te vejo mais tarde, obrigado pela visita",
+        "Tenha um otimo dia",
+        "Tenha um bom dia",
+        "Tchau! Volte sempre",
+        "Tchau! Volte em breve"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Obrigado", "Valeu", "Isso ajuda", "Muito obrigado"],
+      "responses": ["Fico feliz em ajudar", "Nao tem de que", "Foi um prazer"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Quais itens voce tem?",
+        "Que tipo de itens existem?",
+        "Oque voce vende?"
+      ],
+      "responses": [
+        "Nos vendemos cafe e cha",
+        "Nos temos cafe e cha"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Voces aceitam cartao de credito?",
+        "Voces aceitam cartao?",
+        "Vocês aceitam Mastercard?",
+        "Eu posso pagar com PayPal?",
+        "Eu posso pagar com Pix?",
+        "Eu posso pagar com PicPay?",
+        "Voces aceitam apenas dinheiro?"
+      ],
+      "responses": [
+        "Nos aceitamos VISA, Mastercard, Paypal, Pix e PicPay",
+        "Aceitamos a maioria dos cartoes de credito, alem de Pix, PicPay e PayPal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Quanto tempo a entrega demora?",
+        "Demora muito para entregar?",
+        "Qaunto tempo leva para entregar?",
+        "Quando recebo minha entrega?"
+      ],
+      "responses": [
+        "A entrega leva de 2 a 4 dias uteis",
+        "Em media de 2 a 4 dias uteis",
+        "O envio leva de 2 a dias uteis"
+      ]
+    }
+  ]
+}
